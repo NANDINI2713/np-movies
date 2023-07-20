@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 1vmin);
   color: white;
 }
 
@@ -35,4 +35,71 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.m{
+  border: 1px;
+  font-size: larger;
+  align-items: center;
+}
+
+*{
+
+  /* margin: 100; */
+  transition: background-color 0.5s;
+  background-color: #61dafb;
+  padding: 20;
+  box-sizing: border-box;
+  border-radius: 8px;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+
+}
+
+
+.movie{
+  padding :2rem;
+  align-items: center;
+
+}
+
+
+.grid{
+  
+  background-color: rgb(161, 242, 187);
+  max-width: 500rem;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr ;
+  gap: 0.5rem;
+  align-items: center;
+  font-family:'Times New Roman', Times, Arial
+}
+
+.movie-poster:hover {
+  width: 200px;
+  height: 300px;
+}
+
+.heading{
+  text-align: center;
+  font-style: calc();
+  font-weight: bold;
+  font-size: larger;
+}
+h1:hover{
+  text-align: center;
+  text-decoration-color: rgb(255, 253, 253);
+  color: #e90c0c;
+  /* background-color:rgb(200, 190, 190); */
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  color: rgb(223, 141, 141);
 }
